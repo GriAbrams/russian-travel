@@ -1,48 +1,5 @@
 .cover {
-  position: relative;
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
   margin: 0 auto;
-  background-image: url(../../images/cover__background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .cover {
-    min-height: 350px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    min-height: 270px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .cover {
-    min-height: 235px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-  }
 }
