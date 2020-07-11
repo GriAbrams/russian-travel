@@ -3,6 +3,20 @@
   max-width: 360px;
   margin: 26px auto 0;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   font-weight: normal;
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
+  }
 }
